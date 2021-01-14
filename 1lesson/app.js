@@ -19,7 +19,9 @@ alert(`Температура по Фаренгейту ${tempF}`);
     значение из name в admin. Вывести в консоль переменную admin (должно вывести "Василий").
  */
 
-let admin, name = "";
+let admin = "",
+    name = "";
+
 name = "Василий"
 admin = name;
 console.log(admin);
